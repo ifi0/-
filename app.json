@@ -1,0 +1,45 @@
+{
+    "name": "Hack-Session",
+    "description": "Bot hack code session telethon and pyrogram",
+    "logo": "https://telegra.ph/file/9c9d5d49b28c28fd25f1b.jpg",
+    "keywords": [
+
+    ],
+    "website": "",
+    "success_url": "https://telegram.me/J_G_H",
+    "env": {
+        "TOKEN": {
+            "description": "توكن البوت من @botfather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "value": ""
+        },
+        "START_PIC": {
+            "description": "رابط صورة تلكراف اذا ماتعرفه خلي نفس ماهوه",
+            "value": "https://telegra.ph/file/9c9d5d49b28c28fd25f1b.jpg"
+        },
+        "CHAT": {
+            "description": "ايدي كروب التخزين",
+            "value": ""
+        }
+        
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}
