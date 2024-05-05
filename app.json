@@ -8,7 +8,7 @@
     "website": "https://t.me/jepthon",
     "env": {
         "SESSION": {
-            "description": "ضع كود التيرمكس الذي استخرجته من بوت الجوكر",
+            "description": "ضع كود التيرمكس الذي استخرجته من بوت ",
             "value": "",
             "required": true
         },
